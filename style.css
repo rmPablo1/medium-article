@@ -76,3 +76,9 @@ body{
     padding: 0px;
   }
 }
+
+@media (max-width: 300px){
+  #text-banner{
+    width: 300px;
+  }
+}
