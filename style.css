@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#banner{
+  margin:0px;
+  width:100%;
+  height:500px;
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+}
+
+#text-banner{
+  width:40%;
+  padding:120px;
+  margin:0 auto;
+}
+
+#text-banner h1{
+  color: white;
+  padding-bottom:50px;
+}
+
+#text-banner p{
+  color: #636363;
+  font-size: 30px;
+  font-weight: light;
+}
+
+#container{
+  width: 40%;
+  margin: 50px auto;
+}
+
+#container h2{
+  color: #ccc;
+  font-weight: 500;
+}
+#container a{
+  font-weight: lighter;
+  font-size:20px;
+  color: #636363;
+  text-decoration: none;
+  background-color: rgb(190, 255, 190);
+}
+
+#container a:hover{
+  background-color: rgb(32, 157, 32);
+}
+#container p{
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  #container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  #container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  #container {
+    width: 300px;
+  }
+}
