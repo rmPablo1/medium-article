@@ -55,7 +55,7 @@ body{
   color: black;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 960px) and (min-width: 500px) {
   /* For a screen < 960px, this CSS will be read */
   #container {
     width: 700px;
